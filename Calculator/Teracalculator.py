@@ -8,7 +8,7 @@ from tkinter import messagebox
 
 root = tk.Tk()
 root.geometry('250x400+300+300')
-root.iconbitmap(r'Images\python_image.ico')
+root.iconbitmap(r'Calculator\Images\python_image.ico')
 root.resizable(0,0)
 root.title('CalCuLaToR')
 
@@ -174,8 +174,8 @@ btn1 = Button(
     btnrow1,
     text = '1',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_1_clicked
 )
 
@@ -185,8 +185,8 @@ btn2 = Button(
     btnrow1,
     text = '2',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_2_clicked
 )
 
@@ -196,8 +196,8 @@ btn3 = Button(
     btnrow1,
     text = '3',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_3_clicked
 )
 
@@ -207,8 +207,8 @@ btn4 = Button(
     btnrow1,
     text = '+',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_plus_clicked
 )
 
@@ -220,8 +220,8 @@ btn5 = Button(
     btnrow2,
     text = '4',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_4_clicked
 )
 
@@ -231,8 +231,8 @@ btn6 = Button(
     btnrow2,
     text = '5',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_5_clicked
 )
 
@@ -242,8 +242,8 @@ btn7 = Button(
     btnrow2,
     text = '6',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_6_clicked
 )
 
@@ -253,8 +253,8 @@ btn8 = Button(
     btnrow2,
     text = '-',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_minus_clicked
 )
 
@@ -267,8 +267,8 @@ btn9 = Button(
     btnrow3,
     text = '7',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_7_clicked
 )
 
@@ -278,8 +278,8 @@ btn10 = Button(
     btnrow3,
     text = '8',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_8_clicked
 )
 
@@ -289,8 +289,8 @@ btn11 = Button(
     btnrow3,
     text = '9',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_9_clicked
 )
 
@@ -300,8 +300,8 @@ btn12 = Button(
     btnrow3,
     text = '*',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_star_clicked
 )
 
@@ -314,8 +314,8 @@ btn13 = Button(
     btnrow4,
     text = 'C',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_C_clicked
 )
 
@@ -325,8 +325,8 @@ btn14 = Button(
     btnrow4,
     text = '0',
     font = ('Verdana', 22),
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = btn_0_clicked
 )
 
@@ -336,7 +336,7 @@ btn15 = Button(
     btnrow4,
     text = '/',
     font = ('Verdana', 22),
-    relief = RAISED,
+    relief = GROOVE,
     border = 1,
     command = btn_divide_clicked
 )
@@ -348,8 +348,8 @@ btn16 = Button(
     text = '=',
     font = ('Verdana', 22),
     bg = "Orange",
-    relief = RAISED,
-    border = 5,
+    relief = GROOVE,
+    border = 1,
     command = result
 
 )
