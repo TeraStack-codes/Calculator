@@ -1,5 +1,6 @@
-#This is my 6 Hours project
 #Hope You like it :)
+
+#Imports
 import tkinter as tk
 from tkinter import *
 from tkinter import messagebox
